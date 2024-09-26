@@ -299,3 +299,17 @@
 
 
 })(jQuery);
+
+// Bloquea el clic derecho en todo el sitio web
+document.addEventListener('contextmenu', function (event) {
+  event.preventDefault();
+  alert("El clic derecho está deshabilitado en este sitio.");
+});
+
+// Bloquea la tecla "Imprimir pantalla" para evitar capturas de pantalla
+document.addEventListener('keydown', function (event) {
+  if (event.key === 'PrintScreen') {
+      alert("Capturas de pantalla deshabilitadas.");
+      event.preventDefault();
+  }
+});
