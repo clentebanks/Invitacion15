@@ -301,10 +301,10 @@
 })(jQuery);
 
 // Bloquea el clic derecho en todo el sitio web
-document.addEventListener('contextmenu', function (event) {
-  event.preventDefault();
-  alert("El clic derecho está deshabilitado en este sitio.");
-});
+// document.addEventListener('contextmenu', function (event) {
+//   event.preventDefault();
+//   alert("El clic derecho está deshabilitado en este sitio.");
+// });
 
 // Bloquea la tecla "Imprimir pantalla" para evitar capturas de pantalla
 document.addEventListener('keydown', function (event) {
