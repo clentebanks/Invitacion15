@@ -48,9 +48,7 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-img{
-    
-}
+
 .boxed-btn:hover {
     background: #800098;
     color: #fff !important;
@@ -5519,5 +5517,22 @@ img {
   -ms-user-select: none;
   pointer-events: none;
 }
-
-
+/*pie de pagina*/
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .pagination a {
+    margin: 0 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #8C1FA1;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .pagination a:hover {
+    background-color: #555;
+  }
