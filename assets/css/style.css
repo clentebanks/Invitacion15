@@ -48,6 +48,9 @@
     text-transform: uppercase;
     cursor: pointer;
 }
+img{
+    
+}
 .boxed-btn:hover {
     background: #800098;
     color: #fff !important;
@@ -5516,3 +5519,5 @@ img {
   -ms-user-select: none;
   pointer-events: none;
 }
+
+
