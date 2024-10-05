@@ -5536,3 +5536,14 @@ img {
   .pagination a:hover {
     background-color: #555;
   }
+/* video thumbnail*/
+.video-responsive {
+    width: 320px; /* Ajusta este valor según el tamaño que prefieras */
+    height: auto; /* Mantiene la proporción correcta */
+    max-width: 100%; /* Evita que exceda el ancho de su contenedor */
+  }
+@media (max-width: 768px) {
+    .video-responsive {
+      width: 100%; /* La imagen ocupará el ancho completo del contenedor en pantallas pequeñas */
+    }
+  }
